@@ -1,0 +1,32 @@
+{
+  "shop.OwnerMessage.message": "This shop's owner is：",
+  "shop.messageSellShop.message": "This shop type is 'Selling'.",
+  "shop.messageBuyShop.message": "This shop type is 'Buying'。",
+  "shop.getItem.message": "The item in shop is:",
+  "shop.getItemCount.message": "The item in shop's count is:",
+  "shop.price.message": "This shop's price is:",
+  "shop.createNewShop.message": "Please key the price for this item.",
+  "shop.setItemSuccessful.message": "Supplement！",
+  "shop.chequeEco.text": "This cheque's value has:",
+  "shop.getMoney.message": "Your money is:",
+  "shop.shopHaveMoney.message": "The money in shop is:",
+  "shop.addMoneyToShop.message": "Please key the number to put the money in shop.",
+  "shop.ATMOutput.message": "Please key the number to output the money.",
+  "shop.noMoney.message": "But you have not enough money.",
+  "shop.invNoItem.message": "But you have not enough item.",
+  "shop.noItem.message": "But shop have not enough item.",
+  "shop.ownerNoMoney.message": "This shop have not enough money.",
+  "shop.getMoneyFromShop.message": "Take the money from shop：",
+  "shop.buyerItemMessage.message": "Please key the number for buy/sell the item.",
+  "shop.cannotBreakShop.message": "You cannot break the shop that doesn't belong to you.",
+
+  "itemGroup.with_shopping": "With Shopping",
+
+  "item.go_shopping.cheque": "Cheque",
+  "item.go_shopping.creative_cheque": "Creative Cheque",
+  "block.go_shopping.glass_shop": "Glass Shop",
+  "block.go_shopping.admin_shop": "Admin Glass Shop",
+  "block.go_shopping.glass_shop_buyer": "Glass Shop (Buyer)",
+  "block.go_shopping.admin_shop_buyer": "Admin Glass Shop (Buyer)",
+  "block.go_shopping.atm_block": "ATM Terminal"
+}

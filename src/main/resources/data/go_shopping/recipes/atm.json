@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "SGW",
+    "TLT"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "minecraft:iron_block"
+    },
+    "T": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "L": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "go_shopping:atm_block_item"
+  }
+}

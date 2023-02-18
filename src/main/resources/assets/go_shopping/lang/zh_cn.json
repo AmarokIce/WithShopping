@@ -1,0 +1,32 @@
+{
+  "shop.OwnerMessage.message": "这个商店的所有者是：",
+  "shop.messageSellShop.message": "这个商店的类型是贩卖商店。",
+  "shop.messageBuyShop.message": "这个商店的类型是收购商店。",
+  "shop.getItem.message": "商店中的物品为：",
+  "shop.getItemCount.message": "商店中的库存剩余：",
+  "shop.price.message": "在这个商店贩卖/收购的单价为：",
+  "shop.createNewShop.message": "请输入价值物品价值。",
+  "shop.setItemSuccessful.message": "完成补货！",
+  "shop.chequeEco.text": "这张支票价值：",
+  "shop.getMoney.message": "你当前的余额：",
+  "shop.shopHaveMoney.message": "商店中的余额是：",
+  "shop.addMoneyToShop.message": "请输入存入的余额。",
+  "shop.ATMOutput.message": "请输入取出的金额。",
+  "shop.noMoney.message": "然而你没有这么多的钱。",
+  "shop.invNoItem.message": "然而你没有这么多的货物。",
+  "shop.noItem.message": "商店中没有这么多货物。",
+  "shop.ownerNoMoney.message": "商店没有这么多余额了。",
+  "shop.getMoneyFromShop.message": "从商店获取了：",
+  "shop.buyerItemMessage.message": "请输入购买/出售的数量。",
+  "shop.cannotBreakShop.message": "你不能破坏不属于你的商店。",
+
+  "itemGroup.with_shopping": "购物同乐",
+
+  "item.go_shopping.cheque": "支票",
+  "item.go_shopping.creative_cheque": "创造模式支票",
+  "block.go_shopping.glass_shop": "玻璃商店",
+  "block.go_shopping.admin_shop": "管理员玻璃商店",
+  "block.go_shopping.glass_shop_buyer": "玻璃商店（收购模式）",
+  "block.go_shopping.admin_shop_buyer": "管理员玻璃商店（收购模式）",
+  "block.go_shopping.atm_block": "ATM终端机"
+}

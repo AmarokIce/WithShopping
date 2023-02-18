@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "go_shopping:glass_shop_item"
+    }
+  ],
+  "result": {
+    "item": "go_shopping:glass_shop_buyer_item"
+  }
+}

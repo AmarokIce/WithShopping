@@ -1,0 +1,32 @@
+{
+  "shop.OwnerMessage.message": "這個商店的所有者是：",
+  "shop.messageSellShop.message": "這個商店的類型是販賣商店。",
+  "shop.messageBuyShop.message": "這個商店的類型是收購商店。",
+  "shop.getItem.message": "商店中的商品是：",
+  "shop.getItemCount.message": "商店中商品的庫存是：",
+  "shop.price.message": "這個商店商品出售/收購的單價是：",
+  "shop.createNewShop.message": "請輸入商品的價值。",
+  "shop.setItemSuccessful.message": "完成補貨！",
+  "shop.chequeEco.text": "這張支票的餘額是：",
+  "shop.getMoney.message": "你當前的餘額是：",
+  "shop.shopHaveMoney.message": "商店中的餘額是：",
+  "shop.addMoneyToShop.message": "請輸入存入商店的金額。",
+  "shop.ATMOutput.message": "請輸入取出的金額。",
+  "shop.noMoney.message": "但是你沒有這麼多錢。",
+  "shop.invNoItem.message": "但是你沒有這麼多的貨物。",
+  "shop.noItem.message": "商店中的庫存不足。",
+  "shop.ownerNoMoney.message": "商店中的餘額不足。",
+  "shop.getMoneyFromShop.message": "從商店中獲取了：",
+  "shop.buyerItemMessage.message": "請輸入購買/出售的數量。",
+  "shop.cannotBreakShop.message": "你不能打破不屬於你的商店。",
+
+  "itemGroup.with_shopping": "購物同樂",
+
+  "item.go_shopping.cheque": "支票",
+  "item.go_shopping.creative_cheque": "創造模式支票",
+  "block.go_shopping.glass_shop": "玻璃商店",
+  "block.go_shopping.admin_shop": "管理員玻璃商店",
+  "block.go_shopping.glass_shop_buyer": "玻璃商店（收購模式）",
+  "block.go_shopping.admin_shop_buyer": "管理員玻璃商店（收購模式）",
+  "block.go_shopping.atm_block": "ATM終端機"
+}

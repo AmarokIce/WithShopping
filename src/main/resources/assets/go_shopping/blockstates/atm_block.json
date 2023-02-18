@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "go_shopping:block/atm_block"
+    },
+    "facing=north": {
+      "model": "go_shopping:block/atm_block",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "go_shopping:block/atm_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "go_shopping:block/atm_block",
+      "y": 180
+    }
+  }
+}
+

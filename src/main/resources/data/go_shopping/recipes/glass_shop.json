@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SWS",
+    "TLT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "L": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "go_shopping:glass_shop_item"
+  }
+}

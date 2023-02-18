@@ -1,0 +1,102 @@
+buildscript {
+    repositories {
+        maven {
+            url = 'https://maven.minecraftforge.net'
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+        classpath 'org.jetbrains.kotlin:kotlin-serialization:1.6.10'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'kotlin'
+apply plugin: 'kotlinx-serialization'
+
+apply from: 'https://raw.githubusercontent.com/thedarkcolour/KotlinForForge/site/thedarkcolour/kotlinforforge/gradle/kff-3.1.0.gradle'
+
+version = '1.0.0'
+group = 'club.someoneice.shopping'
+archivesBaseName = 'WithShopping'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.18.2'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,LOADING,CORE'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run/server')
+
+            property 'forge.logging.markers', 'SCAN,LOADING,CORE'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,LOADING,CORE'
+            property 'forge.logging.console.level', 'debug'
+
+            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources')
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDirs 'src/generated/resources/' }
+
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.18.2-40.0.4'
+    implementation "committee.nova:LightEconomy-1.0.0"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "17"
+}
+
+jar {
+    manifest {
+        attributes([
+                'Specification-Title': "examplemod",
+                'Specification-Vendor': "examplemodsareus",
+                'Specification-Version': "1", // We are version 1 of ourselves
+                'Implementation-Title': project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor' :"examplemodsareus",
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}

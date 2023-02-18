@@ -1,0 +1,24 @@
+modLoader="kotlinforforge"
+loaderVersion="[3,)"
+license='Pineapple'
+
+[[mods]]
+modId="go_shopping"
+version="1.0"
+displayName="go_shopping"
+credits="someoneice"
+authors="someoneice"
+description='''
+'''
+[[dependencies.go_shopping]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.go_shopping]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
